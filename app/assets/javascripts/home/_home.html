@@ -8,7 +8,7 @@
     </span>
 
     <span>
-        <a href="#/posts/{{$index}}">Comments</a>
+        <a href="#/posts/{{post.id}}">Comments</a>
     </span>
     {{post.upvotes}}
     <span style="font-size:20px; margin-left:10px;">
@@ -19,6 +19,8 @@
             {{post.title}}
         </span>
     </span>
+
+    posted by <a ng-href="#/users/{{post.user.username}}">{{post.user.username}}</a>
 </div>
 
 <form ng-submit="addPost()"
