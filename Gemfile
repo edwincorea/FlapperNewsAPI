@@ -32,3 +32,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'angular-rails-templates'
 gem 'angular_rails_csrf'
 gem 'devise', '~> 3.4.0'
+gem 'debugger2', :git => "git://github.com/ko1/debugger2.git"
